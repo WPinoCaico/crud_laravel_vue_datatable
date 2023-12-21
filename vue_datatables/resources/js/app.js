@@ -3,8 +3,16 @@
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-
+//archivos globales, para todas las vistas
 require('./bootstrap');
+
+// require( 'jszip' );
+// require( 'pdfmake' );
+// require( 'datatables.net-bs5' );
+// require( 'datatables.net-buttons-bs5' );
+// require( 'datatables.net-buttons/js/buttons.colVis.js' );
+// require( 'datatables.net-buttons/js/buttons.html5.js' );
+// require( 'datatables.net-buttons/js/buttons.print.js' );
 
 window.Vue = require('vue').default;
 
